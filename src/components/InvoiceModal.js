@@ -158,28 +158,28 @@ class InvoiceModal extends React.Component {
                             <td className="fw-bold" style={{ width: '100px' }}>Taxable Amount</td>
                             <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.subTotal}</td>
                           </tr>
-                          {this.props.NonTaxable != 0.00 &&
+                          {this.props.NonTaxable !== 0.00 &&
                             <tr className="text-end">
                               <td></td>
                               <td className="fw-bold" style={{ width: '100px' }}>NonTaxable </td>
                               <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.NonTaxableAmount}</td>
                             </tr>
                           }
-                          {this.props.CGST != 0.00 &&
+                          {this.props.CGST !== 0.00 &&
                             <tr className="text-end">
                               <td></td>
                               <td className="fw-bold" style={{ width: '100px' }}>CGST {this.props.info.CGST}%</td>
                               <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.CGSTAmount}</td>
                             </tr>
                           }
-                          {this.props.SGST != 0.00 &&
+                          {this.props.SGST !== 0.00 &&
                             <tr className="text-end">
                               <td></td>
                               <td className="fw-bold" style={{ width: '100px' }}>SGST {this.props.info.SGST}%</td>
                               <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.SGSTAmount}</td>
                             </tr>
                           }
-                          {this.props.IGST != 0.00 &&
+                          {this.props.IGST !== 0.00 &&
                             <tr className="text-end">
                               <td></td>
                               <td className="fw-bold" style={{ width: '100px' }}>IGST {this.props.info.IGST}%</td>
