@@ -195,10 +195,10 @@ class InvoiceModal extends React.Component {
                   </div>
               <td >
                 <h4>TERMS & CONDITION:</h4>
-1.Payment of this invoice should be by crossed account payee cheque / demand draft in favour of Malhi Enterprises LTD.<br/>
+1.Payment of this invoice should be by crossed account payee cheque / demand draft in favour of Malhi Enterprises.<br/>
 2.Kindly notify us in writing regarding any discrepancy in this invoice within seven days. Otherwise, this invoice shall be deemed to be correct and payable by you.<br/>
 3.Interest @2% per month will be charged on delayed payments.<br/>
-4.Any discrepency in this invoice must communicate in written within 7 days of date of invoice <br/><br/>
+4.Any discrepency in this invoice must communicate in written within 7 days of date of invoice <br/>
 5.This is a computer generated invoice with Digital Signature. does not require signature<br/>
 <br/><br/><br/><br/><br/><br/>
 Authorized Signatory
