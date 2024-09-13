@@ -166,6 +166,13 @@ class InvoiceModal extends React.Component {
                           {this.props.CGST !== 0.00 &&
                             <tr className="text-end">
                               <td></td>
+                              <td className="fw-bold" style={{ width: '100px' }}>Discount -</td>
+                              <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.discount}</td>
+                            </tr>
+                          }
+                            {this.props.CGST !== 0.00 &&
+                            <tr className="text-end">
+                              <td></td>
                               <td className="fw-bold" style={{ width: '100px' }}>CGST {this.props.info.CGST}%</td>
                               <td className="text-end" style={{ width: '100px' }}>{this.props.currency} {this.props.CGSTAmount}</td>
                             </tr>
