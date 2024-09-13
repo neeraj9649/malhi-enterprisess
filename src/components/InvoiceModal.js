@@ -55,7 +55,7 @@ class InvoiceModal extends React.Component {
       JALANDHAR CANTT HEAD POST OFFICE, JASVIR SINGH S/O AJIT SINGH, OLD PHAGWARA ROAD, DEEP NAGAR, JALANDHAR
       <br />
       JALANDHAR PUNJAB-144005<br/>
-    GST No.:03AADCH1392Q1ZC,PAN No.:AADCH1392Q<br/>
+    GST No.:03DDOPM9654Q1ZJ,PAN No.:AADCH1392Q<br/>
     Contact No:- +91 7719674619</p>
   </div>
 </div>
@@ -195,13 +195,12 @@ class InvoiceModal extends React.Component {
                   </div>
               <td >
                 <h4>TERMS & CONDITION:</h4>
-1.Payment of this invoice should be by crossed account payee cheque / demand draft in favour of HPL LOGISTICS PVT. LTD.<br/>
+1.Payment of this invoice should be by crossed account payee cheque / demand draft in favour of Malhi Enterprises LTD.<br/>
 2.Kindly notify us in writing regarding any discrepancy in this invoice within seven days. Otherwise, this invoice shall be deemed to be correct and payable by you.<br/>
 3.Interest @2% per month will be charged on delayed payments.<br/>
-4.Any discrepency in this invoice must communicate in written within 7 days of date of invoice <br/>5.Subject to the jurisdiction of the courts in Ludhiana .<br/>
-6.This is a computer generated invoice with Digital Signature. does not require signature<br/>
-7.IGST has been charged, against section 12(8) and section 7(5) (a) of the igst act read with notification no 01/2019- integrated tax dated 29.01.2019,on all shipments going outside india, effective 01st feb 2019.
-For HPL Logistics Pvt. Ltd.<br/><br/><br/><br/><br/><br/>
+4.Any discrepency in this invoice must communicate in written within 7 days of date of invoice <br/><br/>
+5.This is a computer generated invoice with Digital Signature. does not require signature<br/>
+<br/><br/><br/><br/><br/><br/>
 Authorized Signatory
               </td>
             </div>
