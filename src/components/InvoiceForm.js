@@ -38,6 +38,7 @@ class InvoiceForm extends React.Component {
       IGST: '',
       IGSTAmount: '0.00',
       NonTaxable:'0.00',
+      discount:'0',
       NonTaxableAmount:'0.00'
       
     };
@@ -204,6 +205,14 @@ handleCalculateTotal = () => {
                     {this.state.currency}
                     {this.state.NonTaxableAmount || 0}</span>
                 </div>
+                  <div className="d-flex flex-row align-items-start justify-content-between mt-2">
+                  <span className="fw-bold">Discount -
+                  </span>
+                  <span>
+                    <span className="small "></span>
+                    {this.state.currency}
+                    {this.state.discount || 0}</span>
+                </div>
                 <div className="d-flex flex-row align-items-start justify-content-between mt-2">
                   <span className="fw-bold">CGST:
                   </span>
@@ -264,6 +273,15 @@ handleCalculateTotal = () => {
               <Form.Label className="fw-bold">NonTaxableAmount rate:</Form.Label>
               <InputGroup className="my-1 flex-nowrap">
                 <Form.Control name="NonTaxable" type="number" value={this.state.NonTaxable} onChange={(event) => this.editField(event)} className="bg-white border" placeholder="0.0" min="0.00" step="0.01" max="100.00"/>
+                <InputGroup.Text className="bg-light fw-bold text-secondary small">
+                  %
+                </InputGroup.Text>
+              </InputGroup>
+            </Form.Group>
+            <Form.Group className="my-3">
+              <Form.Label className="fw-bold">Discount</Form.Label>
+              <InputGroup className="my-1 flex-nowrap">
+                <Form.Control name="NonTaxable" type="number" value={this.state.discount} onChange={(event) => this.editField(event)} className="bg-white border" placeholder="0.0" min="0.00" step="0.01" max="100.00"/>
                 <InputGroup.Text className="bg-light fw-bold text-secondary small">
                   %
                 </InputGroup.Text>
